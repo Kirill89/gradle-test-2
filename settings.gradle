@@ -8,6 +8,5 @@
  */
 
 rootProject.name = 'gradle-test-2'
-ext {
-    guavaVersion = '23.0'
-}
+gradle.ext.guavaVersion = '23.0'
+gradle.ext.junitVersion = '4.12'
